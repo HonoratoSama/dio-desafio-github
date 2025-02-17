@@ -1,0 +1,7 @@
+## Aqui serão inclusas quaisquer anotações referentes ao treinamento de Git/GitHub
+----
+Comandos Básicos git
+
+git status - mostra o status da branch
+git add . ou git add -A - adicionam as alterações encontradas
+git commit - m "<Mensagem>" - "commita" as alterações para a Branch
