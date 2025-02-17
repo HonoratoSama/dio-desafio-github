@@ -2,6 +2,27 @@
 ----
 Comandos Básicos git
 
-git status - mostra o status da branch
-git add . ou git add -A - adicionam as alterações encontradas
-git commit - m "<Mensagem>" - "commita" as alterações para a Branch
+git clone <link do repositorio>
+git branch <nome da branch> --------- cria uma branch
+git branch ------------ mostra em qual branch estou
+git checkout <nome da branch> --------- muda para uma branch específica
+git add * -------- adiciona os arquivos mudados
+git commit -m "mensagem" ----------- realiza um commit
+git push origin <nome da branch> --------- envia para o github a branch específica---------
+git fetch origin <nome da branch> --------- baixa a branch do colega do github------- PAra dar o merge tem que primeiro mudar para a master
+git checkout master ----- vai pra master
+git merge <nome da branch do colega> --------- mescla a branch do colega com a master
+git push origin master ------ manda a master atualizada para o github-------Colega dois vai precisar baixar a master novamente
+git fetch origin master
+
+--- Ao criar um novo repositório ---
+echo "# BootCamp_DIO_Aula0_1" >> README.md 
+git init - Inicia um novo repositório
+git status - Demonstra status atual do repositório (também informa a branch)
+git add . - Prepara os arquivos para serem "commitados"
+git commit -m "primeiro commit" - Efetua as alterações localmente
+git branch -M main - Altera o nome da branch 'De: master Para: main'
+git remote add origin git@github.com:HonoratoSama/BootCamp_DIO_Aula0_1.git - Linka o 
+    repositório local com o repositório do Github
+git push -u origin main - envia alterações "commitadas" para o repositório do Github
+---
